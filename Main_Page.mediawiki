@@ -1,0 +1,106 @@
+<!-- <templatestyles src="Template:Halaman Utama/style.css" /> -->
+<div id="atas">
+  <div class="nomobile mp-header">
+    <div class="mp-header__main">
+      <div class="mp-header__welcome">
+        <!-- prettier-ignore -->
+        <div class="mp-header__welcome-hero"><!--
+            -->Selamat datang di [[Wikipedia]],<!--
+            --></div>
+
+        <!-- prettier-ignore -->
+        <div class="mp-header__welcome-subtitle"><!--
+            -->Sebuah ensiklopedia bebas yang dibangun oleh sukarelawan.<!--
+            --></div>
+      </div>
+
+      <!-- prettier-ignore -->
+      <div class="mp-header__statistics"><!--
+        -->'''[[Istimewa:Statistik|{{ NUMBEROFARTICLES }} artikel]]''' dalam '''[[bahasa Indonesia]]'''.<!--
+        --></div>
+    </div>
+    <!-- prettier-ignore -->
+    <div class="mp-header__portal hlist">
+* [[Portal:Biografi|Biografi]]
+* [[Portal:Geografi|Geografi]]
+* [[Portal:Ilmu|Ilmu]] 
+* [[Portal:Sejarah|Sejarah]]
+* [[Portal:Kimia|Kimia]]
+* [[Portal:Teknologi|Teknologi]]
+* [[Portal:Komunitas|Komunitas]]
+* [[Portal:Seni|Seni]]
+* '''[[Portal:Daftar portal|Semua portal]]'''
+    </div>
+  </div>
+</div>
+<div class="mp-main-content">
+  <!-- prettier-ignore -->
+  <div class="mp-main-content__focus">
+<!-- ============== ARTIKEL PILIHAN ================ -->
+{{Halaman Utama/Box3
+|title   = Artikel pilihan
+|id      = mf-artikelpilihan
+|image   = HSutvald2.svg
+|content = {{Wikipedia:Artikel Pilihan/{{CURRENTWEEK}} {{CURRENTYEAR}}}}
+}}
+<!-- ================== PERISTIWA TERKINI =============== -->
+{{Halaman Utama/Box3
+|title   = Peristiwa terkini
+|id      = mf-peristiwaterkini
+|image   = HSAktuell.svg
+|content = {{Peristiwa terkini}}
+}}
+<!-- ================== HARI INI DALAM SEJARAH =============== -->
+{{Halaman Utama/Box3
+|title   = Hari ini dalam sejarah
+|id      = mf-hids
+|image   = HSDagensdatum.svg
+|content = {{Hari Ini Dalam Sejarah}}
+}}
+<!-- ============== TAHUKAH ANDA ================= -->
+{{Halaman Utama/Box3
+|title   = Tahukah Anda
+|id      = mf-tahukahanda
+|image   = HSVissteduatt.svg
+|content = {{clr}}{{Wikipedia:Tahukah Anda/{{CURRENTDAY}} {{CURRENTMONTHNAME}}}}
+|line    = {{clear}}{{nobr|[[Wikipedia:Tahukah Anda|Arsip]]{{,}} [[Wikipedia:Artikel pertama Anda|Memulai artikel baru]]}}
+}}
+<!-- =============  GAMBAR PILIHAN ================== -->
+{{Halaman Utama/Box3
+|id      = mf-gambarpilihan
+|title   = Gambar pilihan
+|image   = HSBild.svg
+|content = {{Wikipedia:Gambar pilihan/{{#expr:ceil (({{#time:z}} +1) div 4)}}_{{#time:Y}}}}
+|line    = [[Wikipedia:Gambar pilihan|Lainnya]]
+}}
+  </div>
+  <!-- prettier-ignore -->
+  <div class="mp-main-content__other nomobile">
+<!-- ========================= WIKIPEDIA DALAM BAHASA LAIN =============== -->
+{{Halaman Utama/Box4
+| image   = W-circle.svg
+| title   = Mari bergabung!
+| content = {{Halaman Utama/Sambutan}}
+}}
+<!-- ========================= PARTISIPASI =============== -->
+{{Halaman Utama/Box4
+| image   = {{{img1|Text-x-generic with pencil-2.svg}}}
+| title   = {{{jud1|Tantangan kolaborasi}}}
+| content = 
+{{Templat:Halaman Utama/Modul partisipasi}}
+}}
+<!-- ========================= KOMUNITAS =============== -->
+{{Halaman Utama/Box4
+| image   = HSSamarbete.svg
+| title   = Komunitas
+| content = 
+{{Halaman Utama/Modul_komunitas}}
+}}
+<!-- ================== PROYEK WMF LAIN  =============== -->
+{{Halaman Utama/Box4
+| image   = Wikimedia-logo-circle.svg
+| title   = Proyek Wikimedia lain
+| content = {{Halaman Utama/ProyekWMF}}
+}}
+    </div>
+</div>

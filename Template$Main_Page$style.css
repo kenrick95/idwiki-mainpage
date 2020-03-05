@@ -1,0 +1,151 @@
+/* [[Halaman Utama/TesSeluler]] */
+/* #region header */
+.mp-header {
+  border-radius: 10px;
+  border: 1px solid #a7d7f9;
+
+  background: url('//upload.wikimedia.org/wikipedia/commons/1/10/Wikipedia-logo-v2-200px-transparent.png');
+  background-repeat: no-repeat;
+  background-position: -40px -15px;
+  vertical-align: top;
+}
+.mp-header__main {
+  display: flex;
+  font-size: 95%;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.mp-header__welcome {
+  margin-left: 155px;
+  flex: 1;
+  margin-bottom: 2px;
+}
+.mp-header__statistics {
+  flex: 0 1 auto;
+  padding: 1em;
+  text-align: right;
+  line-height: 1.3;
+}
+.mp-header__welcome-hero {
+  font-size: 185%;
+}
+.mp-header__welcome-subtitle {
+  padding-left: 8px;
+}
+.mp-header__portal {
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+/* #endregion */
+/* #region main-content */
+.mp-main-content {
+  margin-top: 10px;
+  display: flex;
+}
+.mp-main-content__focus {
+  flex: 1 1 60%;
+  border: 1px solid #a7d7f9;
+  vertical-align: top;
+  color: #000;
+  padding: 0px 10px 10px 0px;
+}
+.mp-main-content__other {
+  flex: 1 1 40%;
+  border: 1px solid #a7d7f9;
+  vertical-align: top;
+  padding: 0px 10px 10px 0px;
+  width: 40%;
+  background: #f5faff;
+  vertical-align: top;
+  padding: 0px 10px 10px 0px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+/* #endregion */
+
+/* [[Templat:Halaman Utama/Box3]] */
+
+.mp-content-box__header {
+  position: relative;
+  background-image: url('//upload.wikimedia.org/wikipedia/commons/4/46/Bluebg_rounded.png');
+  left: 4px;
+  top: 2px;
+  margin: 0;
+  height: 25px;
+  background-repeat: no-repeat;
+}
+.mp-content-box .mp-content-box__header::after {
+  border: none;
+}
+.mp-content-box__header-icon {
+  position: absolute;
+  left: 5px;
+  top: -6px;
+}
+.mp-content-box__header-text {
+  position: absolute;
+  left: 40px;
+  top: 2px;
+
+  margin-top: 0;
+  color: black;
+  font-weight: bold;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  border-bottom: none;
+  padding: 0.15em 0.4em;
+}
+.mp-content-box__header .mp-content-box__header-text {
+  font-size: 1rem;
+}
+.mp-content-box__content {
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 0px;
+}
+.mp-content-box__footer {
+  text-align: right;
+}
+
+/* [[Templat:Halaman Utama/Box4]] */
+
+.mp-content-box-other__header {
+  position: relative;
+  left: 8px;
+  top: 8px;
+  background: #c6defe;
+  height: 25px;
+  border-radius: 8px;
+}
+.mp-content-box-other .mp-content-box-other__header::after {
+  border: none;
+}
+.mp-content-box-other__header-icon {
+  position: absolute;
+  left: 1px;
+  top: -7px;
+}
+.mp-content-box-other__header-text {
+  position: absolute;
+  left: 40px;
+  top: 2px;
+  width: 95%;
+
+  margin: 0;
+  border-bottom: 0;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: left;
+  color: #000;
+  padding: 0.15em 0.4em;
+}
+.mp-content-box-other__header .mp-content-box-other__header-text {
+  font-size: 1rem;
+}
+.mp-content-box-other__content {
+  margin: 0em 1em 1em 1em;
+  padding-right: 0px;
+  padding-top: 12px;
+}

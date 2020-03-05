@@ -1,0 +1,21 @@
+
+<div class="mp-content-box-other">
+  <h2 class="mp-content-box-other__header" {{#if:{{{id|}}} | id="{{{id}}}Head"| }}>
+    <div class="mp-content-box-other__header-icon">[[Berkas:{{{image}}}|38px|link=|alt=]]</div>
+    <div class="mp-content-box-other__header-text">{{{title}}}</div>
+  </h2>
+  <div class="mp-content-box-other__content" {{#if:{{{id|}}}|id="{{{id}}}"|}}>{{{content}}}</div>
+</div>
+
+<!--
+
+<div style="text-align:left; position:relative; left:8px; top:8px;  background:#C6DEFE; height:25px; {{border-radius|8px}}">
+<div style="position:relative; left:-5px; top:0px;">[[File:Bluebg rounded2.png|link=|alt=]]</div>
+<div style="position:absolute; left:1px; top:-7px;">[[File:{{{image}}}|38px|link=|alt=]]</div>
+<div style="position:absolute; left:40px; top:2px; width:95%;"><h2 {{#if:{{{id|}}} | id="{{{id}}}Head"| }} style="margin:0; border-bottom:0; font-size:110%;  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight:bold; text-align:left; color:#000; padding:.15em .4em;">{{{titre|{{{title}}}}}}</h2></div></div>
+|-
+| <div {{#if:{{{id|}}}|id="{{{id}}}"|}} style="margin:0em 1em 1em 1em; padding-right:0px; padding-top:12px;">
+{{{contenu|{{{content}}}}}}</div>
+|-
+
+-->

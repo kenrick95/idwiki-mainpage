@@ -1,0 +1,10 @@
+<includeonly>
+<div style="text-align:left; position:relative; left:4px; top:2px; margin:0;">
+[[Berkas:Bluebg rounded.png|link=|alt=]]
+<div style="position:absolute; left:5px; top:-6px;">[[Berkas:{{{image}}}|38px|link=|alt=]]</div>
+<div style="position:absolute; left:40px; top:2px;"><h2 {{#if:{{{id|}}} | id="{{{id}}}Head"| }} style="margin-top:0; color:black; font-weight:bold; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; border-bottom:none; font-size:110%; padding:.15em .4em;">{{{titre|{{{title}}}}}}</h2></div></div>
+|-
+|<div {{#if:{{{id|}}}|id="{{{id}}}"|}} style="padding-left:10px; padding-bottom:5px; padding-top:0px;">{{{contenu|{{{content}}}}}}{{#if:{{{lien|{{{line|}}}}}}|<div align="right">{{{lien|{{{line}}}}}}</div>}}</div>
+|-
+
+</includeonly>
