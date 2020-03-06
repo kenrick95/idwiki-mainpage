@@ -1,3 +1,4 @@
+__NOTOC__ __NOEDITSECTION__
 <!-- <templatestyles src="Template:Halaman Utama/style.css" /> -->
 <div id="atas">
   <div class="nomobile mp-header">
@@ -65,10 +66,11 @@
 |content = {{clr}}{{Wikipedia:Tahukah Anda/{{CURRENTDAY}} {{CURRENTMONTHNAME}}}}
 |line    = {{clear}}{{nobr|[[Wikipedia:Tahukah Anda|Arsip]]{{,}} [[Wikipedia:Artikel pertama Anda|Memulai artikel baru]]}}
 }}
-<!-- =============  GAMBAR PILIHAN ================== -->
+<!-- =============  GAMBAR PILIHAN ================== nomobile karena Templat:GP2 tidak bagus untuk tampilan seluler -->
 {{Halaman Utama/Box3
 |id      = mf-gambarpilihan
 |title   = Gambar pilihan
+|class   = nomobile
 |image   = HSBild.svg
 |content = {{Wikipedia:Gambar pilihan/{{#expr:ceil (({{#time:z}} +1) div 4)}}_{{#time:Y}}}}
 |line    = [[Wikipedia:Gambar pilihan|Lainnya]]
@@ -103,4 +105,20 @@
 | content = {{Halaman Utama/ProyekWMF}}
 }}
     </div>
+</div>
+<div class="mp-footer">
+  <div class="mp-footer__main">
+    <!-- prettier-ignore -->
+    <div class="mp-footer__title"><!--
+    -->[[Wikipedia:Penyangkalan umum|Wikipedia tidak menjamin keabsahan isi artikel]].<!--
+    --></div>
+    <!-- prettier-ignore -->
+    <div class="mp-footer__subtitle"><!--
+    -->[[Wikimedia Foundation]] tidak bertanggung jawab atas isi Wikipedia. Setiap penulis bertanggung jawab atas suntingannya masing-masing.<!--
+    --></div>
+  </div>
+  <!-- prettier-ignore -->
+  <div class="mp-footer__contact-us"><!--
+  -->[[Berkas:Crystal 128 mail.png|24px|link=Wikipedia:Hubungi kami|alt=Hubungi kami]] ''[[Wikipedia:Hubungi kami|Butuh bantuan? Hubungi kami!]]''<!--
+  --></div>
 </div>

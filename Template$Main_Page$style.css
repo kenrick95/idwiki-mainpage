@@ -62,11 +62,36 @@
   margin-left: 10px;
 }
 body.skin-minerva .mp-main-content__focus {
-	border: none;
+  border: none;
 }
 /* #endregion */
 
-/* [[Templat:Halaman Utama/Box3]] */
+/* #region footer */
+.mp-footer {
+  margin: 12px 0 0 0;
+  color: #000;
+  padding: 5px;
+}
+.mp-footer__main {
+  border: 1px solid #a7d7f9;
+  border-radius: 10px;
+}
+.mp-footer__title {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.mp-footer__subtitle {
+  font-size: 85%;
+  text-align: center;
+}
+.mp-footer__contact-us {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* #endregion */
+
+/* #region [[Templat:Halaman Utama/Box3]] */
 
 .mp-content-box {
   margin-top: 10px;
@@ -79,6 +104,8 @@ body.skin-minerva .mp-main-content__focus {
   margin: 0;
   height: 25px;
   background-repeat: no-repeat;
+  overflow: visible;
+  border: none;
 }
 .mp-content-box .mp-content-box__header::after {
   border: none;
@@ -111,8 +138,9 @@ body.skin-minerva .mp-main-content__focus {
 .mp-content-box__footer {
   text-align: right;
 }
+/* #endregion */
 
-/* [[Templat:Halaman Utama/Box4]] */
+/* #region [[Templat:Halaman Utama/Box4]] */
 .mp-content-box-other {
   margin-top: 10px;
 }
@@ -124,6 +152,8 @@ body.skin-minerva .mp-main-content__focus {
   height: 25px;
   margin: 0 10px 0 0;
   border-radius: 8px;
+  overflow: visible;
+  border: none;
 }
 .mp-content-box-other .mp-content-box-other__header::after {
   border: none;
@@ -155,3 +185,4 @@ body.skin-minerva .mp-main-content__focus {
   padding-right: 0;
   padding-top: 12px;
 }
+/* #endregion */
