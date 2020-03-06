@@ -61,6 +61,9 @@
   border-radius: 10px;
   margin-left: 10px;
 }
+body.skin-minerva .mp-main-content__focus {
+	border: none;
+}
 /* #endregion */
 
 /* [[Templat:Halaman Utama/Box3]] */
